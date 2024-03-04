@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Stack items vertically */
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust spacing between images and paragraphs */
+}
+
+.imge img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 80px; /* Adjust as needed */
+}
+
+.info p {
+    color: white; 
+    text-align: center; 
+    margin: 0 80px; 
+    font-size: 20px; 
+    display: inline-block; 
+    padding: 5px 10px; 
+}
+.info2 p {
+    color: rgb(226, 255, 8); 
+    text-align: center; 
+    margin: 20px; 
+    font-size: 20px; 
+    display: inline-block; 
+    padding: 5px 10px; 
+}
+body {
+    background-color: black; /* Set background color to black */
+    margin: 0; /* Remove default body margin */
+}

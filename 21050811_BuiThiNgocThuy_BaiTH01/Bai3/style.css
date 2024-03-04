@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 50px auto;
+    width: 450px; 
+}
+
+.img > img {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    
+}
+p{
+    margin-left: 9%;
+    color: rgb(187, 187, 187);
+}
+.h2bai3{
+    margin-left: -20px;
+    color: red;
+}
+button.doc-them{
+    background-color: rgb(28, 201, 224); /* Chỉnh màu nền của nút thành cam */
+    color: white; /* Chỉnh màu chữ của nút thành trắng */
+    padding: 10px 20px; /* Tăng khoảng cách nút */
+    border: none; /* Loại bỏ viền của nút */
+
+}

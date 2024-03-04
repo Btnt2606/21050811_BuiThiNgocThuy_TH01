@@ -1,0 +1,23 @@
+
+.container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tagwrap{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns:  auto auto auto auto auto
+}
+.populartag{
+    font-size: 30px;
+}
+.tag{
+    color: white;
+    background: greenyellow;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+}
